@@ -2,7 +2,8 @@ import React from "react";
 import GoogleMapReact from "google-map-react";
 import { useSelector } from "react-redux";
 import Marker from "./Marker";
-import UserInfoCard from "./userInfoCard/UserInfoCard";
+// import UserInfoCard from "./userInfoCard/UserInfoCard";
+import UserInfoCard from "./UserInfoCard/UserInfoCard";
 import Messenger from "../Messenger/Messenger";
 import VideoRooms from "../videoRooms/videoRooms";
 
