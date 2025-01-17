@@ -19,9 +19,6 @@ const MapPage = () => {
     : Object.values(onlineUsers);
 
 
-  console.log(`online users: ${JSON.stringify(onlineUsersArray)}`);
-  console.log(`online users type: ${typeof onlineUsersArray}`);
-
   const defaultMapProps = {
     center: {
       lat: myLocation.lat,
@@ -36,7 +33,7 @@ const MapPage = () => {
     >
       <h1>Map page</h1>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyCstbyXKmQJfs3-Si9gPLk1pzoMJda1RUc" }}
+        bootstrapURLKeys={{ key: "" }}
         center={defaultMapProps.center}
         zoom={defaultMapProps.zoom}
       >
